@@ -1,6 +1,7 @@
 ###----
 # Project "3. Getting and Cleaning Data" / John Hopkins University / Coursera
 # Author: Roman Kornyliuk
+# Date: 2020-05-05
 ###----
 
 # This R script "run_analysis.R" does the following:
