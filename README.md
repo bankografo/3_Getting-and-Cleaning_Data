@@ -13,4 +13,4 @@ Original Data File in zip format is located here:
 3. Prepare the code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 4. Run_Analysis R Script
 
-### Main Points for peer review
+### Main Points for the Peer Review
