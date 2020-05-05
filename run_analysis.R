@@ -62,19 +62,19 @@ test <- cbind(testSubjects, testActivities, test)
 ###----
 # United dataset
 ###----
-combined <- rbind(train, test)
+united_dataset <- rbind(train, test)
 
 # Change classLabels to activityName
 
-combined[["Activity"]] <- factor(combined[, Activity]
+united_dataset[["Activity"]] <- factor(united_dataset[, Activity]
                               , levels = a_labels[["classLabels"]]
                               , labels = a_labels[["activityName"]])
 
-combined[["SubjectNum"]] <- as.factor(combined[, SubjectNum])
-combined <- reshape2::melt(data = combined, id = c("SubjectNum", "Activity"))
-combined <- reshape2::dcast(data = combined, SubjectNum + Activity ~ variable, fun.aggregate = mean)
+united_dataset[["SubjectNum"]] <- as.factor(united_dataset[, SubjectNum])
+united_dataset <- reshape2::melt(data = united_dataset, id = c("SubjectNum", "Activity"))
+united_dataset <- reshape2::dcast(data = united_dataset, SubjectNum + Activity ~ variable, fun.aggregate = mean)
 
 ###----
 # Create tidy_data_set.txt file
 ###----
-data.table::fwrite(x = combined, file = "tidy_data_set.txt", quote = FALSE)
+data.table::fwrite(x = united_dataset, file = "tidy_data_set.txt", quote = FALSE)
