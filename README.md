@@ -1,7 +1,10 @@
 # Assignment: Getting and Cleaning Data Course Project
 
 Created by: Roman Kornyliuk
-Original Data File in zip format is located here: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Clicking will download the data")
+
+Original Data File in zip format is located here: 
+
+[UC Irvine Repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Clicking will download the data")
 
 ### Goal of the Project
 
