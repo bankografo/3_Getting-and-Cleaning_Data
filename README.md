@@ -14,3 +14,11 @@ Original Data File in zip format is located here:
 4. Run_Analysis R Script
 
 ### Main Points for the Peer Review
+
+Goal | Item | Link to Item
+--- | --- | ---
+Github Repository | Repo |  [Repo Link](https://github.com/bankografo/3_Getting-and-Cleaning_Data "Click to go to Repo")
+Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/bankografo/3_Getting-and-Cleaning_Data/blob/master/run_analysis.R "run_analysis.R")
+Tidy Data Set |  Clean Data Set |  [Data Set Link](https://github.com/bankografo/3_Getting-and-Cleaning_Data/blob/master/tidy_data_set.txt "tidy_data_set.txt")
+Cookbook | CodeBook.md |  [Repo Link](https://github.com/bankografo/3_Getting-and-Cleaning_Data/blob/master/CodeBook.md "CodeBook.md")
+README | ReadingItNow |  [Repo Link](https://github.com/bankografo/3_Getting-and-Cleaning_Data/blob/master/README.md "README.md")
